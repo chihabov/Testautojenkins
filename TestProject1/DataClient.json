@@ -1,0 +1,30 @@
+﻿[
+  {
+    "pays_de_naissance": "France",
+    "email": "Chihabovlek@gmail.com",
+    "nom": "Chihab",
+    "phone": "0123456789",
+    "adresse": {
+      "num": "18",
+      "rue": "impasse de la chapelle",
+      "code_postal": "75018",
+      "ville": "Paris"
+    },
+    "message": "Je suis présent",
+    "product": "Moto"
+  },
+  {
+    "pays_de_naissance": "Espagne",
+    "email": "Chihabovlek@gmail.com",
+    "nom": "Chihab",
+    "phone": "0123456789",
+    "adresse": {
+      "num": "21",
+      "rue": "rue de la chapelle",
+      "code_postal": "75018",
+      "ville": "Paris"
+    },
+    "message": "Je suis présent",
+    "product": "Moto"
+  }
+]
