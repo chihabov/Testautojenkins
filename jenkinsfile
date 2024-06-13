@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+ 
+    stages {
+        stage('Checkout') {
+            steps {
+         
+                git credentialsId: 'TokenCam', url: 'https://github.com/chihabov/Testautojenkins.git', branch: 'main'
+            }
+        }
+        stage('Clean solution ') {
+            steps {
+           
+                bat '"C:\\Program Files\\dotnet\\dotnet.exe" clean C:\\Users\\chiha\\source\\repos\\TestProject1\\TestProject1 -c:Debug'
+           
+            }
+        }
+        stage('Build') {
+            steps {
+           
+                bat '"C:\\Program Files\\dotnet\\dotnet.exe" build C:\\Users\\chiha\\source\\repos\\TestProject1\\TestProject1' // Utilisation de 'bat' pour exécuter des commandes Windows
+               
+
+            }
+        }
+         stage('Run') {
+            steps {
+           
+                bat '"C:\\Program Files\\dotnet\\dotnet.exe" test "C:\\Users\\chiha\\source\\repos\\TestProject1\\TestProject1\\bin\\Debug\\net8.0\\TestProject1.dll"'
+// Utilisation de 'bat' pour exécuter des commandes Windows
+               
+
+            }
+
+
+        }
+    }
+
+}

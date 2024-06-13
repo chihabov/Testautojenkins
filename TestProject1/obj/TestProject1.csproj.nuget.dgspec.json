@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\chiha\\source\\repos\\TestProject1\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
         "projectPath": "C:\\Users\\chiha\\source\\repos\\TestProject1\\TestProject1\\TestProject1.csproj",
-        "packagesPath": "C:\\Users\\chiha\\.nuget\\packages\\",
+        "packagesPath": "C:\\WINDOWS\\system32\\config\\systemprofile\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\chiha\\source\\repos\\TestProject1\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chiha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
